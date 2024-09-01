@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* FUENTE UNO */
+@font-face {
+    font-family: 'Frauces-Var';
+    src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'Frauces-Semi';
+    src: url(../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+/* FUENTE DOS */
+@font-face {
+    font-family: 'Monrope-Var';
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Monrope-Regular';
+    src: url(../assets/fonts/manrope/static/Manrope-Regular.ttf);
+}
+/* COLORES */
+:root{
+    --btn-hover: #44FFA1;
+    --waves: #24053E;
+    --text: #584D62;
+    --fondo-waves: #FCF8FF;
+    --fondo: #FFF;
+}
+.container{
+    height: 77.1rem;
+    background-color: #24053E;
+}
+/* ORNAMENTAL WAVES*/
+.custom-shape-divider-bottom-1725167985 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1725167985 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 30rem;
+}
+
+.custom-shape-divider-bottom-1725167985 .shape-fill {
+    fill: #fff;
+}
+p{
+    color: #44FFA1;
+}
