@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/FrancisoRocha/Workit-landing-page)
+- Live Site URL: [Live site URL](https://workit-landing-page-wheat.vercel.app/)
 
 ## My process
 
