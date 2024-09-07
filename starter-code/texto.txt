@@ -32,3 +32,525 @@
   in touch to schedule a call.
 
   Apply for access
+
+
+@media (max-width: 768px) { 
+    /* NAV */
+    .nav__landing{
+        height: 6.7rem;
+    }
+    .logo{
+        margin-left: 4.4rem;
+    }
+    .apply__text{
+        margin-right: 4.4rem;
+    }
+    /* INFO HERO */
+    .hero__section{
+        height: 41.7rem;
+    }
+    .patter-one{
+        width: 27rem;
+        margin-top: -12rem;
+        margin-left: -18rem;
+    }
+    .patter-two{
+        width: 14.7rem;
+        height: 11.71;
+    }
+    /* CURVA */
+    .curve{
+        height: 5.6rem;
+    }
+    .text__hero{
+        width: 50rem;
+        font-size: 6rem;
+        padding-top: 15rem;
+    }
+    /* IMAGEN HERO */
+    .img__hero__fon{
+        width: 60.2rem;
+        height: 29.6rem;
+        margin-top: -11rem;
+        margin-left: 8rem;
+    }
+}
+
+/*! DISPOSITIVOS MOVILES */
+@media (max-width: 480px) {
+
+    /* NAV */
+    .nav__landing {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 3rem;
+    }
+
+    .apply__text {
+        margin-right: 3rem;
+    }
+
+    /* INFO HERO */
+    .hero__section {
+        display: flex;
+        height: 39rem;
+    }
+
+    .patter-one,
+    .patter-two,
+    .patter-three {
+        display: none;
+    }
+
+    .hero-info {
+        margin: 0 auto;
+    }
+
+    .text__hero {
+        width: 33.5rem;
+        font-size: 4rem;
+        margin-top: -12rem;
+    }
+
+    /* CUARVA */
+    .curve {
+        height: 2.4rem;
+    }
+
+    /* IMAGEN HERO */
+    .img__hero__fon {
+        width: 32.2rem;
+        height: 24rem;
+        margin-left: 5rem;
+        margin-top: -11rem;
+    }
+
+    /* HERO SECCION DOS */
+    .hero__section__dos {
+        height: 88.6rem;
+    }
+
+    .curv {
+        height: 10rem;
+    }
+
+    .section__landi {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15rem;
+        padding-top: 5rem;
+    }
+
+    .text__section__one,
+    .text__section__two,
+    .text__section__three {
+        font-size: 2.4rem;
+    }
+
+    .text__info{
+        font-size: 1.4rem;
+    }
+
+    .curva{
+        height: 2.4rem;
+    }
+
+    /* SECCION DE FINAL */
+    .foto{
+        width: 28rem;
+        height: 28rem;
+        margin-top: -10rem;
+        margin-left: -14rem;
+    }
+
+    .cuadro__text{
+        width: 33.5rem;
+        height: 40rem;
+        margin-left: -17rem;
+        margin-top: 13rem;
+    }
+
+    .text__cuadro__title{
+        font-size: 3.2rem;
+        padding-top: 3rem;
+    }
+
+    .text__cuadro{
+        width: 34rem;
+        height: 17.4rem;
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: -3rem;
+    }
+    .text__btn{
+        margin-left: 9rem;
+    }
+    .fotter{
+        margin-top: 50rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav__landing {
+    height: 6.7rem;
+    background-color: var(--waves);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) { 
+    .nav__landing{
+        height: 9.1rem;
+    }
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+@media (min-width: 768px) { 
+    .logo {
+        margin-left: 8rem;
+    }
+}
+
+.apply__text {
+    color: var(--fondo);
+    margin-right: 2rem;
+    font-family: 'Monrope-Regular';
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 300ms;
+    border-bottom: 2px solid var(--btn-hover);
+}
+
+@media (min-width: 768px) { 
+    .apply__text {
+        margin-right: 8rem;
+    }
+}
+
+
+.apply__text:hover {
+    color: var(--btn-hover);
+    transition: all 300ms;
+}
+
+/* SECCION HERO */
+.hero__section {
+    height: 39rem;
+    background-color: var(--waves);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) { 
+    .hero__section{
+        height: 60.8rem;
+    }
+}
+
+.patter-one {
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    .patter-one{
+        display: block;
+        width: 27rem;
+        margin-top: -21rem;
+        margin-left: -10rem;
+    }
+}
+
+.patter-two {
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    .patter-two {
+        display: block;
+        width: 14.2rem;
+        margin-top: 1rem;
+        margin-right: -4rem;
+    }
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -30rem;
+}
+
+.text__hero {
+    width: 63.5rem;
+    font-family: 'Frauces-Var';
+    font-size: 8rem;
+    color: var(--fondo);
+    text-align: center;
+    margin: 0 auto;
+}
+
+span {
+    border-bottom: 0.4rem solid #44FFA1;
+}
+
+.text__button,
+.text__btn {
+    width: 16.2rem;
+    height: 5.6rem;
+    background-color: var(--btn-hover);
+    color: var(--waves);
+    font-family: 'Monrope-var';
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    transition: all 300ms;
+}
+
+.text__button:hover,
+.text__btn:hover {
+    background-color: var(--waves);
+    border: 0.1rem solid var(--btn-hover);
+    color: var(--btn-hover);
+    transition: all 300ms;
+}
+
+/* WAVES CURVA */
+.top {
+    background-color: var(--waves);
+}
+
+.curve {
+    border: none;
+    width: 100%;
+    height: 7rem;
+    aspect-ratio: 20 / 1;
+    clip-path: ellipse(55% 100% at top);
+    position: absolute;
+}
+
+/* IMAGEN HERO */
+.img__hero__fon {
+    position: absolute;
+    width: 76.7rem;
+    height: 44.1rem;
+    margin-top: -20REM;
+    margin-left: 40rem;
+    z-index: 2;
+}
+
+/* HERO SECCION DOS */
+.hero__section__dos {
+    height: 55rem;
+    background-color: var(--fondo-waves);
+}
+
+.tops {
+    background-color: var(--fondo-waves);
+}
+
+.curva {
+    border: none;
+    width: 100%;
+    height: 7rem;
+    aspect-ratio: 20 / 1;
+    clip-path: ellipse(55% 100% at top);
+    position: absolute;
+}
+
+/* HERO DE ENMEDIO */
+.curv {
+    border: none;
+    width: 100%;
+    height: 24rem;
+    position: absolute;
+    margin-top: 6rem;
+    transform: rotateX(180deg);
+    background-color: var(--fondo-waves);
+}
+
+.section__landi {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+.section__landi li {
+    list-style: none;
+}
+
+.one,
+.two,
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    border: 0.1rem solid #24053E;
+    color: var(--waves);
+    font-family: 'Frauces-Semi';
+    font-size: 2.4rem;
+    margin: 0 auto;
+}
+
+.text__section__one,
+.text__section__two,
+.text__section__three {
+    color: var(--waves);
+    font-family: 'Frauces-Semi';
+    font-size: 3.2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.text__info {
+    width: 35.2rem;
+    height: 12.8rem;
+    color: var(--waves);
+    font-family: 'Monrope-Var';
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 180%;
+    padding-top: 3rem;
+}
+
+/* SECCION DE FINAL */
+.section__final {
+    display: flex;
+    margin-top: 20rem;
+    margin-left: 20rem;
+}
+
+.foto {
+    display: flex;
+    width: 37.7rem;
+    height: 37.7rem;
+}
+
+/* SECCION DE INFO Y FOTO */
+.cuadro__text {
+    position: absolute;
+    width: 73rem;
+    height: 41.1rem;
+    background-color: var(--waves);
+    margin-top: 13rem;
+    margin-left: 30rem;
+
+}
+
+.text__cuadro__title {
+    font-family: 'Frauces-Semi';
+    color: var(--fondo);
+    font-size: 5.8rem;
+    padding-top: 6.4rem;
+    padding-left: 6.4rem;
+}
+
+.text__cuadro {
+    width: 66rem;
+    height: 9.6rem;
+    color: var(--fondo);
+    font-family: 'Monrope-Var';
+    line-height: 180%;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 6.4rem;
+}
+
+.text__btn {
+    font-family: 'Monrope-Var';
+    margin-left: 6.4rem;
+    margin-top: 7rem;
+}
+
+.patter-three {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    margin-left: 20rem;
+    margin-top: 8rem;
+}
+
+/* FOTTER */
+.fotter {
+    width: 11.6rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+}
+
+.redsocial {
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+}
